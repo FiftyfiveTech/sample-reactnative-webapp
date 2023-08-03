@@ -136,15 +136,15 @@ This project follows the `Clean Architecture`, and hence have focused the struct
 
 **core** - It will have the store, reducers and thunk related files.
 
-**locales** - it will have the strings/copy defined being used throughout the app. This will also support the multi language translations.
+**locales** - It will have the strings/copy defined being used throughout the app. This will also support the multi language translations.
 
-**navigation** - it will have all the navigation stack(s) and screen navigations.
+**navigation** - It will have all the navigation stack(s) and screen navigations.
 
-**screen** - it will have all the main/parent screens that are gonna be there in the app. Any child/sub view/screen should be defined in the main screen folder.
+**screen** - It will have all the main/parent screens that are gonna be there in the app. Any child/sub view/screen should be defined in the main screen folder.
 
-**theme** - it will have all the colors and common styles defined which will be according to the color,font and design schema given by the designers.
+**theme** - It will have all the colors and common styles defined which will be according to the color,font and design schema given by the designers.
 
-**util** - it will have all the miscellaneous code like common functions, constants, some helper methods etc.
+**util** - It will have all the miscellaneous code like common functions, constants, some helper methods etc.
 
 
 ## Expected coding standards in the code:
